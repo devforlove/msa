@@ -1,0 +1,5 @@
+rootProject.name = 'msa'
+include 'app-member-service'
+include 'app-play-service'
+include 'app-feature-service'
+include 'core-web'
