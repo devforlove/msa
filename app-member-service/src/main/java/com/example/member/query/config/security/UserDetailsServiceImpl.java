@@ -25,7 +25,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 				member.getEmail(),
 				member.getPassword(),
 				member.getNickname(),
-				member.getRoles().stream().map(UserRole::getName).collect(Collectors.toSet())
+				null
 		);
 	}
 }
