@@ -1,7 +1,9 @@
-package com.example.coreweb.error;
+package com.example.member.command.config;
 
-import com.example.coreweb.error.ErrorResponse.ValidationError;
-import com.example.coreweb.error.exception.BusinessException;
+import com.example.common.error.ErrorCode;
+import com.example.common.error.ErrorResponse;
+import com.example.common.error.ErrorResponse.ValidationError;
+import com.example.common.error.exception.BusinessException;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.http.ResponseEntity;

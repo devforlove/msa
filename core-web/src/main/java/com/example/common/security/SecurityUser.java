@@ -1,6 +1,6 @@
-package com.example.coreweb.security;
+package com.example.common.security;
 
-import com.example.coreweb.member.Role;
+import com.example.common.member.Role;
 import java.util.Collection;
 import java.util.Set;
 import lombok.Builder;

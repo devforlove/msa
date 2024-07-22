@@ -2,9 +2,9 @@ package com.example.member.query.config.security.api;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
-import com.example.coreweb.security.JwtTokenProvider;
-import com.example.coreweb.security.SecurityUser;
-import com.example.coreweb.security.TokenResponse;
+import com.example.common.security.JwtTokenProvider;
+import com.example.common.security.SecurityUser;
+import com.example.common.security.TokenResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

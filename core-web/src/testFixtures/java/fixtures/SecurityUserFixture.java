@@ -1,7 +1,7 @@
 package fixtures;
 
-import com.example.coreweb.member.Role;
-import com.example.coreweb.security.SecurityUser;
+import com.example.common.member.Role;
+import com.example.common.security.SecurityUser;
 import java.util.EnumSet;
 import java.util.Set;
 

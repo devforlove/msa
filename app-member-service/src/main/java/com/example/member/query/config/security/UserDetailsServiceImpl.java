@@ -1,9 +1,8 @@
 package com.example.member.query.config.security;
 
-import com.example.coreweb.security.SecurityUser;
+import com.example.common.security.SecurityUser;
 import com.example.member.command.adapter.out.persistence.Member;
 import com.example.member.command.adapter.out.persistence.MemberRepository;
-import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

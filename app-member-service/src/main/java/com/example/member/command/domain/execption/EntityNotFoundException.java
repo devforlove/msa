@@ -1,8 +1,8 @@
 package com.example.member.command.domain.execption;
 
 
-import com.example.coreweb.error.ErrorCode;
-import com.example.coreweb.error.exception.BusinessException;
+import com.example.common.error.ErrorCode;
+import com.example.common.error.exception.BusinessException;
 
 public class EntityNotFoundException extends BusinessException {
 

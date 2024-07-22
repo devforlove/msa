@@ -1,4 +1,4 @@
-package com.example.coreweb.error;
+package com.example.common.error;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.HttpStatus.UNAUTHORIZED;

@@ -1,4 +1,4 @@
-package com.example.coreweb.security;
+package com.example.common.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

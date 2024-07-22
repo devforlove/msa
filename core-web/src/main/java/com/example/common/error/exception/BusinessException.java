@@ -1,6 +1,6 @@
-package com.example.coreweb.error.exception;
+package com.example.common.error.exception;
 
-import com.example.coreweb.error.ErrorCode;
+import com.example.common.error.ErrorCode;
 
 public class BusinessException extends RuntimeException {
 	private final ErrorCode errorCode;

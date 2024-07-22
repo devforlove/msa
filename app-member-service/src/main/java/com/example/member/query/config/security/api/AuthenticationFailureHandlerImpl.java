@@ -2,8 +2,8 @@ package com.example.member.query.config.security.api;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
-import com.example.coreweb.error.ErrorCode;
-import com.example.coreweb.error.ErrorResponse;
+import com.example.common.error.ErrorCode;
+import com.example.common.error.ErrorResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

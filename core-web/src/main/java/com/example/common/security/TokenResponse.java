@@ -1,4 +1,4 @@
-package com.example.coreweb.security;
+package com.example.common.security;
 
 public record TokenResponse(String token) {
 

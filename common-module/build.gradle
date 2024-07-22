@@ -1,0 +1,12 @@
+bootJar.enabled = false
+jar.enabled = true
+
+group = 'com.example.common'
+version = '0.0.1'
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+}

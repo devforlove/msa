@@ -1,7 +1,7 @@
 package com.example.member.query.config.security;
 
 
-import com.example.coreweb.security.JwtAuthorizationFilter;
+import com.example.common.security.JwtAuthorizationFilter;
 import com.example.member.query.config.security.api.AuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
