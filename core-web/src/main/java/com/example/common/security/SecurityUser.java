@@ -1,6 +1,5 @@
 package com.example.common.security;
 
-import com.example.common.member.Role;
 import java.util.Collection;
 import java.util.Set;
 import lombok.Builder;

@@ -1,6 +1,5 @@
 package com.example.common.security;
 
-import com.example.common.member.Role;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtBuilder;
