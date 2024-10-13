@@ -1,7 +1,7 @@
 package fixtures;
 
-import com.example.common.security.Role;
-import com.example.common.security.SecurityUser;
+import com.example.dash.security.Role;
+import com.example.dash.security.SecurityUser;
 import java.util.EnumSet;
 import java.util.Set;
 

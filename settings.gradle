@@ -1,6 +1,6 @@
 rootProject.name = 'msa'
 include 'app-member-service'
-include 'app-posting-service'
-include 'app-contents-service'
+include 'app-post-service'
+include 'kafka-member-publisher'
 include 'core-web'
 include 'common-module'

@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		set('springBootVersion', '3.1.2')
+		set('springBootVersion', '3.3.3')
 		set('lombokVersion', '1.18.24')
 		set('springCloudVersion', '2022.0.3')
 		set('commonLangVersion', '3.12.0')
@@ -15,14 +15,14 @@ buildscript {
 	}
 
 	dependencies {
-		classpath 'io.spring.gradle:dependency-management-plugin:1.0.13.RELEASE'
+		classpath 'io.spring.gradle:dependency-management-plugin:1.1.6.RELEASE'
 		classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
 	}
 }
 
 
 allprojects {
-	group 'com.wook.top'
+	group 'com.example.dash'
 	version '1.0'
 }
 

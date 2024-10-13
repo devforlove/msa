@@ -5,7 +5,7 @@ plugins {
 bootJar.enabled = false
 jar.enabled = true
 
-group = 'com.example.coreweb'
+group = 'com.example.dash'
 version = '0.0.1'
 
 dependencies {
@@ -13,6 +13,7 @@ dependencies {
     api 'org.springframework.boot:spring-boot-starter-web'
     api 'org.springframework.boot:spring-boot-starter-validation'
     api 'org.springframework.boot:spring-boot-starter-security'
+    api 'org.springframework.boot:spring-boot-starter-data-jpa'
 
     // security
     testImplementation 'org.springframework.security:spring-security-test'

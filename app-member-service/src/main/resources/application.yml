@@ -1,9 +1,6 @@
-server:
-  port: 81
-
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3005/account?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://127.0.0.1:3005/dashboard?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,6 +14,9 @@ spring:
     hibernate:
       ddl-auto: update
     open-in-view: false
+
+event:
+  member-topic: MEMBER-TOPIC
 
 jwt:
   jwtSecretKey: 2ifamoxz94kcpwigfi9spcadcfawasadff324rfsdfsdfsfsd
